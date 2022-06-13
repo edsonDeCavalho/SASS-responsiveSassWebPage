@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css" />
+    <title>TD SASS</title>
+</head>
+<header>
+    <nav>
+        <div class="centarisation">
+            <a class="nav-link" href="./">Landing Page</a>
+            <a class="nav-link" href="./description.html">Description</a>
+        </div>
+    </nav>
+
+</header>
+
+<body>
+
+    <section class="section4 align-center">
+        <p><strong>NOM:</strong> De Carvalho Pedro</p>
+        <p><strong>PRENOM:</strong> Edson Kennedy</p>
+        <p><strong>Classe:</strong> A3 ALT1 Dev web</p><br>
+        <p></p><br>
+        <h1 class="h1">Description</h1>
+
+        <article>
+            <h3>Competences aquises de ce projet</h3>
+            <ul>
+                <li><strong>Responsive :</strong> En utilisant des grid , en mod auto rows.</li>
+                <li><strong>Variables de style : </strong>Utilisation de tout type de nature de variables pour stocker des informations comme un code couleur. </li>
+                <li><strong>Fonction  SASS :</strong> Dans ce projet j'ai peut utiliser des fonctions de sass comme :
+                    <ul>
+                        <li>random() : Pour générer des nombres aléatoires</li><br>
+                        <div class="centarisation">
+                            <img src="./img/Bouclefor.PNG">
+                        </div><br>
+                        <li>repeat() : Pour la création, des colamines avec le paramètre auto-fit pour le widht.</li><br>
+                        <div class="centarisation">
+                            <img src="./img/repeat.PNG">
+                        </div><br>
+                    </ul>
+                </li>
+                <li><strong>Boucles pour générer des classes de style : </strong>générer des classes automatiquement.</li>
+                <li><strong>Animations : </strong>animations de changement de position, etc.</li>
+                <li><strong>Structure d'un projet avec sass :</strong> pour ce projet, j'ai essayé de mettre en place l'arborescence recommence pour un dossier.<strong>scss</strong></li>
+            </ul>
+        </article>
+        <article>
+            <h3>Structuration/arborescence du projet avec sass</h3>
+            <p>Voici les dossiers dans le répertoire /sass que j'ai utilisé pour organiser le projet : </p>
+            <ul>
+                <li><strong>sass/_abstracts/_variables.scss   : </strong> Pour la déclaration et génération des variables</li>
+                <li><strong>sass/_components/_sections.scss : </strong>Déclaration des classes pour les différentes sections dans le projet </li>
+                <li><strong>sass/_components/_images.scss : </strong>Déclaration des classes pour les différentes images dans le projet </li>
+                <li><strong>sass/_components/_astronauts.scss : </strong>Déclaration des classes pour les différentes animations des astronautes dans le projet </li>
+                <li><strong>sass/_vendors/_bootstrap :</strong> Répertoire avec les bibliothèque bootstrap</li>
+                <li><strong>sass/main.scss</strong> : Importe tous les fichiers cités avant.</li>
+                <li><strong>sass/main.css</strong> : Fichier avec extension css importé dans la page html.</li>
+            </ul>
+            <div class="centarisation">
+                <img src="./img/arborescence.PNG" style="height: 350px; width: 200px;">
+            </div>
+        </article>
+        <article>
+            <h3>Biblioteques externes</h3>
+            <p>Pour ce projet, j'ai utilisé la Bibliothèque Bootstrap pour récupérer des composants comme le header.
+                <br>Pour installer la bibliothèque Bootstrap, j'ai utilisé la commande :</p>
+            <ul>
+                <li># npm install -g node-sass</li>
+            </ul>
+            <h3>Code Souce Projet</h3>
+            <ul>
+                <li>
+                    <a href="">Lien Git Hub </a>: </li>
+            </ul>
+        </article>
+    </section>
+</body>
+
+</html>

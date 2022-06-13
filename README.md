@@ -1,2 +1,12 @@
-# Sass-page-animation-web
- Stylish web page with a grid structure in css, with animations and a 100% Sass reposive .
+# TP SASS  IIM - EDSON KENNEDY DE CARVALHO PEDRO
+### ALT1 A3 DEV WEB
+### 
+
+This is the projet of the Advenced scss class from 31/02/2022 to 06/01/2022 .
+
+![img.png](img/back-grpud3.PNG)
+![img.png](img/back-grpud.PNG)
+![img.png](img/back-grpud2.PNG)
+
+
+
