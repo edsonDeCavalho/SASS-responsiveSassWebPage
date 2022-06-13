@@ -1,5 +1,5 @@
-# TP SASS  IIM - EDSON KENNEDY DE CARVALHO PEDRO
-### ALT1 A3 DEV WEB
+#Page in sas with animation and responsive 100% sass responsive
+### 
 ### 
 
 This is the projet of the Advenced scss class from 31/02/2022 to 06/01/2022 .
