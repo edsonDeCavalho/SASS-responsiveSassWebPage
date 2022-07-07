@@ -1,4 +1,4 @@
-# Page in sas with animation and responsive 100% sass responsive
+# Page in sass with animation and responsive 100% sass responsive
 ### 
 ### 
 
